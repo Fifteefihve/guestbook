@@ -1,0 +1,23 @@
+h1 
+{ 
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 7px;
+
+}
+p
+{
+    text-align: center; 
+    color: blue;
+}
+td 
+{
+    color: blue;
+    vertical-align: top;
+}
+table
+{
+    margin: 0 auto;
+    border-spacing: 15px;
+}
