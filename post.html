@@ -7,23 +7,12 @@
   <link rel="stylesheet" href="stylesheet.css" />
   <title>Post</title>
   <style>
-    * {
-      font-family: sans-serif;
-    }
-
     .center {
       display: flex;
       flex-direction: column;
       width: 100%;
       align-items: center;
       gap: 2rem;
-    }
-
-    .header {
-      width: 100%;
-      background-color: blue;
-      color: white;
-      text-align: Center;
     }
 
     .flexCol {
@@ -40,7 +29,6 @@
       display: flex;
       flex-direction: column;
       width: fit-content;
-
       gap: 1rem;
     }
 
@@ -62,14 +50,20 @@
     .redText {
       color: red;
     }
+
+    #textarea {
+      resize: none;
+    }
   </style>
 </head>
 
 <body>
+  <h1 class="titleBanner">Send Message</h1>
+
+  <span>
+    <img src="img/Back.svg" style="width:50px;height:50px;" onclick="PageReturn();" />
+  </span>
   <div class="center">
-    <div class="header">
-      <h2>Send Message</h2>
-    </div>
     <div class="textBoxSection">
       <div class="flexCol">
         <label for="username">Username</label>
@@ -86,7 +80,6 @@
       </div>
     </div>
   </div>
-
   <script src="postscript.js"> </script>
 </body>
 

@@ -89,3 +89,7 @@ body {
 .regform div {
     width: 100%;
 }
+
+.back {
+    align-items: left;
+}

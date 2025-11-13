@@ -44,6 +44,10 @@ function handleButtonClick(ev) {
   textareaElement.value = "";
 
   window.location.href = "mainpage.html";
+
+}
+function PageReturn() {
+  window.location.href = "mainpage.html";
 }
 
 sendButtonElement.addEventListener("click", handleButtonClick);
