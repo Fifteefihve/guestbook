@@ -4,26 +4,31 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>View</title>
+    <title>login</title>
     <link rel="stylesheet" href="stylesheet.css" />
 </head>
 
 <body>
     <h1 class="titleBanner">Login</h1>
+    <span>
+      <img src="img/Back.svg" style="width:50px;height:50px;" onclick="PageReturn();" />
+    </span>
     <div class="center">
     <form class="regform">
       <div>
         <label for="email">Email:</label>
-        <input type="email" name="vname" id="email" required>
+        <input type="email" name="vname" id="emailInput" required>
       </div>
       <div>
         <label for="password">Password:</label>
-        <input type="password" name="zname" id="password" minlength="3" required>
+        <input type="password" name="zname" id="passwordInput" minlength="3" required>
       </div>
       <div>
         <input id="login" type="submit" value="Login">
       </div>
     </form>
   </div>
-
+  <script src="registerpage.js"></script>
+  <script src="postscript.js" ></script>
+  <script src="loginpage.js"></script>
 </body>
