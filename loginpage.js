@@ -14,19 +14,19 @@ function loginUser() {
             // successful login
             console.log('Found credentials');
             localStorage.setItem("loggedInAs", inputEmail);
-            return alert("Logged in successfully");
             isSignedIn = true;
+            return alert("Logged in successfully");
         } else {
             console.log('credentials not found');
-            return alert("Email or password wrong");
             isSignedIn = false;
+            return alert("Email or password wrong");
         }
     }
 }
 
 //testing
 function checkLoggedIn() {
-    if (isSignedIn = true) {
+    if (isSignedIn == true) {
         alert("signed in");
     } else {
         alert("not signed in");
